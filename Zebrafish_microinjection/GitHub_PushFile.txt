@@ -1,0 +1,13 @@
+1. Open Git Bash
+2. cd D:/Microinjection_Project/Amey_microinjection
+3. git add .
+4. git commit -m "Add existing file"
+5. git push origin main
+
+For pushing long files: 
+1. git lfs install
+2. git lfs track "*weights"
+3. git add .gitattributes
+4. git add .
+5. git commit -m "Add filename"
+6. git push origin main
